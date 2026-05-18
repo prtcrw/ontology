@@ -9,6 +9,7 @@
 	<!ENTITY iof-cert-mod "https://spec.industrialontologies.org/ontology/certification/Metadatacertification/">
 	<!ENTITY iof-core-mod "https://spec.industrialontologies.org/ontology/core/Metadatacore/">
 	<!ENTITY iof-maintenance-mod "https://spec.industrialontologies.org/ontology/maintenance/Metadatamaintenance/">
+	<!ENTITY iof-mllo-mod "https://spec.industrialontologies.org/ontology/machinelearninglifecycle/Metadatamllo/">
 	<!ENTITY iof-pps "https://spec.industrialontologies.org/ontology/productionplanning/Metadataproductionplanning/">
 	<!ENTITY iof-pss "https://spec.industrialontologies.org/ontology/productservicesystem/Metadataproductservicesystem/">
 	<!ENTITY iof-spec "https://spec.industrialontologies.org/ontology/MetadataIOF/">
@@ -30,6 +31,7 @@
 	xmlns:iof-cert-mod="https://spec.industrialontologies.org/ontology/certification/Metadatacertification/"
 	xmlns:iof-core-mod="https://spec.industrialontologies.org/ontology/core/Metadatacore/"
 	xmlns:iof-maintenance-mod="https://spec.industrialontologies.org/ontology/maintenance/Metadatamaintenance/"
+	xmlns:iof-mllo-mod="https://spec.industrialontologies.org/ontology/machinelearninglifecycle/Metadatamllo/"
 	xmlns:iof-pps="https://spec.industrialontologies.org/ontology/productionplanning/Metadataproductionplanning/"
 	xmlns:iof-pss="https://spec.industrialontologies.org/ontology/productservicesystem/Metadataproductservicesystem/"
 	xmlns:iof-spec="https://spec.industrialontologies.org/ontology/MetadataIOF/"
@@ -50,6 +52,7 @@
 		<owl:imports rdf:resource="https://spec.industrialontologies.org/ontology/certification/Metadatacertification/"/>
 		<owl:imports rdf:resource="https://spec.industrialontologies.org/ontology/core/Metadatacore/"/>
 		<owl:imports rdf:resource="https://spec.industrialontologies.org/ontology/maintenance/Metadatamaintenance/"/>
+		<owl:imports rdf:resource="https://spec.industrialontologies.org/ontology/machinelearninglifecycle/Metadatamllo/"/>
 		<owl:imports rdf:resource="https://spec.industrialontologies.org/ontology/productservicesystem/Metadataproductservicesystem/"/>
 		<owl:imports rdf:resource="https://spec.industrialontologies.org/ontology/supplychain/Metadatasupplychain/"/>
 		<owl:versionIRI rdf:resource="https://spec.industrialontologies.org/ontology/202601/MetadataIOF/"/>
@@ -63,6 +66,7 @@
 		<dcterms:hasPart rdf:resource="&iof-cert-mod;certificationModule"/>
 		<dcterms:hasPart rdf:resource="&iof-core-mod;coreModule"/>
 		<dcterms:hasPart rdf:resource="&iof-maintenance-mod;maintenanceModule"/>
+		<dcterms:hasPart rdf:resource="&iof-mllo-mod;mlloModule"/>
 		<dcterms:hasPart rdf:resource="&iof-pps;productionPlanningModule"/>
 		<dcterms:hasPart rdf:resource="&iof-pss;productServiceSystemsModule"/>
 		<dcterms:hasPart rdf:resource="&iof-supplychain-mod;supplychainModule"/>

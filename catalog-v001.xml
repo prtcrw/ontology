@@ -61,4 +61,9 @@
     <uri id="User Entered Import Resolution" name="https://spec.industrialontologies.org/ontology/biopharma/Physical/" uri="./biopharma/Physical.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.industrialontologies.org/ontology/biopharma/Recipe/" uri="./biopharma/Recipe.rdf"/>
 
+    <uri id="User Entered Import Resolution" name="https://spec.industrialontologies.org/ontology/machinelearninglifecycle/Metadatamllo/" uri="./mllo/Metadatamllo.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.industrialontologies.org/ontology/machinelearninglifecycle/AboutIOFDev/" uri="./mllo/AboutIOFDev.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.industrialontologies.org/ontology/202601/machinelearninglifecycle/MachineLearningLifecycle/" uri="./mllo/mllo.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.industrialontologies.org/ontology/machinelearninglifecycle/MachineLearningLifecycle/" uri="./mllo/mllo.rdf"/>
+
 </catalog>

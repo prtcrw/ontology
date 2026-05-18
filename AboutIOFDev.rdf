@@ -57,6 +57,8 @@
     <owl:imports rdf:resource="https://spec.industrialontologies.org/ontology/biopharma/MonitoringAndControl/"/>
     <owl:imports rdf:resource="https://spec.industrialontologies.org/ontology/biopharma/ReferenceOntologyCandidates/"/>
 
+    <!-- Machine Learning Lifecycle Ontology -->
+    <owl:imports rdf:resource="https://spec.industrialontologies.org/ontology/machinelearninglifecycle/MachineLearningLifecycle/"/>
 
 		<owl:versionIRI rdf:resource="https://spec.industrialontologies.org/ontology/202601/AboutIOFDev/"/>
 		<iof-av:copyright>Copyright (c) 2022, 2023, 2024, 2025, 2026 Open Applications Group</iof-av:copyright>
